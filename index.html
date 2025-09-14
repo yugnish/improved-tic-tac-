@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">        
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>     
+    <title>Document</title>
+</head>
+<body class="bg-[url('/222.jpg')] bg-cover bg-center h-screen w-screen flex justify-center  flex-col">
+    <p class="text-7xl text-pink-400 flex justify-center pb-30">tic tac toe</p>
+  <div class="flex justify-center">
+
+      <div class="grid grid-cols-3  gap-0 relative">
+        <div class="border-pink-400 border-2 w-20 h-20 hover:bg-purple-700   flex items-center justify-center text-4xl" id="box"></div>
+          <div class="border-pink-400 border-2 w-20 h-20 hover:bg-purple-600 flex items-center justify-center text-4xl" id="box"></div>
+          <div class="border-pink-400 border-2 w-20 h-20 hover:bg-purple-600 flex items-center justify-center text-4xl" id="box"></div>
+          <div class="border-pink-400 border-2 w-20 h-20 hover:bg-purple-600 flex items-center justify-center text-4xl" id="box"></div>
+          <div class="border-pink-400 border-2 w-20 h-20 hover:bg-purple-600 flex items-center justify-center text-4xl" id="box"></div>
+          <div class="border-pink-400 border-2 w-20 h-20 hover:bg-purple-600 flex items-center justify-center text-4xl" id="box"></div>
+          <div class="border-pink-400 border-2 w-20 h-20 hover:bg-purple-600 flex items-center justify-center text-4xl" id="box"></div>
+          <div class="border-pink-400 border-2 w-20 h-20 hover:bg-purple-600 flex items-center justify-center text-4xl" id="box"></div>
+          <div class="border-pink-400 border-2 w-20 h-20 hover:bg-purple-600 flex items-center justify-center text-4xl" id="box"></div>
+          <div class="w-full h-0 border-pink-900 border-2 absolute origin-left hidden" id="line"></div>
+          
+        </div> 
+    </div >
+    <div class="flex justify-center p-2">
+    <button class="border-white border-2 m-2 text-white p-2 bg-pink-400" id="restart">restart</button>
+    <button class="border-white border-2 m-2 text-white p-2 bg-pink-400" id="start">start
+    </button>
+</div>
+<p class="text-pink-400 text-5xl" id="win">result</p>
+   <script src="app.js"></script>
+</body>
+</html>
